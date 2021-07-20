@@ -1,0 +1,98 @@
+body{
+    background-color: skyblue;
+}
+h1{
+    color: green;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+h2{
+    color: rgba(5,10,5,0.8);
+    font-family: 'Roboto Slab', serif;
+}
+h3{
+    color: rgba(5,10,5,0.8);
+    text-align: center;
+}
+p,ul,ol{
+    color: tomato;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+.cajamaster{
+    display: flex;
+    height: 300;
+    width: auto;    
+}
+.caja1{
+    background-color:yellow;
+    border-radius: 15px;
+    box-shadow: 15px 10px 5px rgba(5,10,5,0.8);
+    height: 300px;
+    width: 300px;
+    position: relative;
+    left:10%;
+    top:0%;
+    text-align: center;
+}
+.caja1:hover{
+ background-color: blue;
+}
+.caja2{
+    background-color: yellowgreen;
+    border-radius: 15px;
+    box-shadow: 15px 10px 5px rgba(5,10,5,0.8);
+    height: 300px;
+    width: 300px;
+    position: relative;
+    left:15%;
+    top:0%;
+    text-align: center;
+}
+.caja2:hover{
+    background-color: blue;
+}
+.caja3{
+    background-color: orangered;
+    border-radius: 15px;
+    box-shadow: 15px 10px 5px rgba(5,10,5,0.8);
+    height: 300px;
+    width: 300px;
+    position: relative;
+    left:20%;
+    top:0%;
+    text-align: center;
+}
+.caja3:hover{
+    background-color: blue;
+}
+.cajacontacto{
+    color:chocolate;
+    margin-top: 20px;
+    padding-top: 30px;
+    height: 32px;
+    width: 100px;
+    position: relative;
+    left:45%;
+    top:0%;
+    text-align: center;
+    font-size: 50px;
+}
+.cajacontacto a{
+    color:rgba(5,10,5,0.8);
+}
+.cajacontacto a:hover{
+    color:green;
+}
+.contacto p{
+    color: rgba(5,10,5,0.8);
+    margin-top: 20px;
+    width: 100px;
+    position: relative;
+    left:45%;
+    top:0%;
+    font-size: 10px;
+    text-align: center;
+}
